@@ -1,0 +1,22 @@
+{
+  "name": "1909-stretches",
+  "version": "1.0.0",
+  "description": "Practice JS with TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellwmoore/1909-stretches.git"
+  },
+  "author": "Russell Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellwmoore/1909-stretches/issues"
+  },
+  "homepage": "https://github.com/russellwmoore/1909-stretches#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
