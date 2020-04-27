@@ -17,7 +17,22 @@ returns { a: 1, c: 42};
 */
 
 function pluck(obj, elements) {
+  let keys = Object.keys(obj);
+  console.log(keys);
+  let entries = Object.entries(obj);
+  let map = {};
+    
+  for(let i =0;i< elements.length;i++){
+    if(obj[elements[i]] != null) {
+      console.log("value found");
+     // map.  
+    }else{
+      continue;
+    }
+  }
+ 
   // YOUR CODE
+
 }
 
 module.exports = { pluck };
