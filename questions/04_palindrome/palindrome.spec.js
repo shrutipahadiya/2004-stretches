@@ -2,7 +2,9 @@ const { validPalindrome } = require("./palindrome");
 
 describe("validPalindrome", () => {
   test("it should return true if the input is a valid palindrome", () => {
+    expect(validPalindrome("abba")).toEqual(true);
     expect(validPalindrome("wow")).toEqual(true);
+    expect(validPalindrome("a")).toEqual(true);
   });
 
   test("it should return false if the input is not a valid palindrome", () => {
