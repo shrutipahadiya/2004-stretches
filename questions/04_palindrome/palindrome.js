@@ -13,7 +13,7 @@ const validPalindrome = (str) => {
   let isPalindrome = false;
   
  for(let i = 0;i<=len/2;i++){ //abba // 4 
-    if(str[i] != str[len-1-i]){
+    if(str[i] != str[len-1-i]){ //a // 4-1-0 //4-1-1
       isPalindrome = false;
     }else{
       isPalindrome = true;
