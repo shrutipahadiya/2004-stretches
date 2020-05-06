@@ -18,6 +18,22 @@ ex 2.
 
 const keysToRooms = (rooms) => {
   //YOUR CODE HERE
+  let ans = false;
+  console.log(rooms.length);  //4
+  for(let i=0;i<rooms.length;i++){ //0,1,2,3
+    let arr= rooms[i]; //[1]
+    for(let j=i+1;j<=rooms.length;j++){    //1,2,3,4
+        if(arr[i] > arr[j]){
+          ans = false;
+          return ans;
+        }else{
+          continue;
+        }
+    }
+  }
+
+  return ans;
+
 };
 
 module.exports = { keysToRooms };
