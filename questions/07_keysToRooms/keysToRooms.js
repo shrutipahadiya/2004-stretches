@@ -18,22 +18,6 @@ ex 2.
 
 const keysToRooms = (rooms) => {
   //YOUR CODE HERE
-<<<<<<< HEAD
-=======
-
-  const keyBook = { 0: true };
-
-  for (let i = 0; i < rooms.length; i++) {
-    if (keyBook[i]) {
-      rooms[i].forEach((key) => {
-        keyBook[key] = true;
-      });
-    } else {
-      return false;
-    }
-  }
-  return true;
->>>>>>> da43308ae1419fa97d5025cdfa4e1d5e15cd199d
 };
 
 module.exports = { keysToRooms };
