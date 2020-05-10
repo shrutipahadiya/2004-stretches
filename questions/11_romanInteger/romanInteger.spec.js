@@ -13,11 +13,11 @@ describe('romanInteger', () => {
     expect(romanInteger(444)).toEqual('CDXLIV');
     expect(romanInteger(1111)).toEqual('MCXI');
     expect(romanInteger(1999)).toEqual('MCMXCIX');
-    expect(romanInteger(4999)).toEqual('MMMMCMXCIX');
+    expect(romanInteger(3999)).toEqual('MMMMCMXCIX');
   });
   test('It should throw an error if given an invalid number', () => {
     expect(() => romanInteger(-1)).toThrow();
     expect(() => romanInteger(0)).toThrow();
-    expect(() => romanInteger(5000)).toThrow();
+    expect(() => romanInteger(4000)).toThrow();
   });
 });
