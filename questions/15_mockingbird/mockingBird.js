@@ -2,7 +2,7 @@
 const repeater = (func, n) => {
   // YOUR CODE
   let arr = [];
-  console.log(n);
+ // console.log(n);
  for (let i = 0; i < n; i++) {
     arr.push(func())
   }
