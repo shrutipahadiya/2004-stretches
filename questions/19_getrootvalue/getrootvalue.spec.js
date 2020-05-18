@@ -1,22 +1,6 @@
 const { getrootvalue } = require('./getrootvalue');
 
-describe('getrootvalue functionality', () => {
-  test('getrootvalue should be called with 2 paramaters obj and val.', () => {
-    const obj = {
-      one: {
-        l1: {
-          val1: [40, 65, 113, 200],
-        },
-      },
-    };
-    const val = 65;
-    const mockFunc = jest.fn(getrootvalue);
-    mockFunc(obj, val);
-    expect(mockFunc).toHaveBeenCalledWith(obj, val);
-    const call = mockFunc.mock.calls[0];
-    expect(typeof call[0]).toBe('object');
-    expect(typeof call[1]).toBe('number');
-  });
+describe('getrootvalue functionality to be called with 2 paramaters obj and val.', () => {
   test('test 1: getrootvalue should return the correct root value', () => {
     const obj = {
       one: {
