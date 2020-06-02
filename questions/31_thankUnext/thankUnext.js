@@ -16,4 +16,13 @@
 
 // YOUR CODE (intentionally blank):
 
+
+function next(arr,idx)  {
+    if(idx == -1)
+   console.log(arr[0])
+   else
+   console.log(arr[idx+1])
+   
+
+}
 // no export statement required
